@@ -1,0 +1,81 @@
+
+@media screen and (min-width: 1000px){
+    
+    /* parallax effect */
+
+    .pimg1,
+    .pimg2,
+    .pimg3 {
+
+        /*
+        fixed = parallax
+        scroll = normal
+    */
+        background-attachment: fixed;
+    }
+
+    /* hero section */
+
+    .text h2 {
+        font-size: 3em;
+        /* margin-left: -70px; */
+    }
+
+    .text h3 {
+        font-size: 2.75em;
+        /* margin-left: -70px; */
+    }
+
+    .text p{
+        font-size: 1.5em;
+    }
+
+/* what i offer */
+
+     .what-i-offer {
+         height: 2000px;
+     }
+
+/* case study */
+
+    .section-case-study {
+        height: 3230px;
+    }
+
+    .container-portfolio {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-portfolio img {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .container-portfolio p {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    /* dubsado */
+
+    .dubsado-light {
+        height: 1850px;
+        margin-top: 10px;
+    }
+
+    .text .h2-dubsado {
+        font-size: 3em;
+        padding: 0px;
+    }
+
+    .text .h3-dubsado {
+        font-size: 2em;
+    }
+}
+
